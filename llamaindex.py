@@ -43,6 +43,14 @@ def load_index():
 
 index = load_index()
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # Initialize the Streamlit app
 st.title('Imperium')
 
