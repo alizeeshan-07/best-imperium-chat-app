@@ -64,9 +64,9 @@ if user_prompt:
         response = query_engine.query(user_prompt)
     
     # Display the response and metadata outside the 'with' block
-    st.write('Response:')
+    st.subheader('Response:')
     st.write(response.response)
-    st.write('Source(s) Detail:')
+    st.subheader('Source(s) Detail:')
     st.write(response.metadata)
 
 
