@@ -66,7 +66,7 @@ if user_prompt:
     # Display the response and metadata outside the 'with' block
     st.subheader('Response:')
     st.write(response.response)
-    st.subheader('Source(s) Detail:')
+    st.subheader('Source(s):')
     st.write(response.metadata)
 
 
