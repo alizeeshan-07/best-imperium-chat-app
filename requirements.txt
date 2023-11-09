@@ -90,7 +90,7 @@ numexpr==2.8.7
 numpy==1.26.1
 oauthlib==3.2.2
 onnxruntime==1.16.1
-openai==1.2.1
+openai==0.27.7
 openapi-schema-pydantic==1.2.4
 opentelemetry-api==1.20.0
 opentelemetry-exporter-otlp==1.20.0
