@@ -2,3 +2,6 @@ openai
 streamlit
 llama-index
 python-dotenv
+ipython
+pypdf
+pymupdf
