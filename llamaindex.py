@@ -14,7 +14,7 @@ load_dotenv()
 openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # Initialize the storage context and index
-# @st.cache_resource
+@st.cache_resource
 def load_index():
     storage_context = StorageContext.from_defaults(persist_dir="./storage")
     return load_index_from_storage(storage_context=storage_context)
